@@ -1,0 +1,5 @@
+com\qait\automation\KPlus_Test_Automation\cucumber\PurchaseInfoPageRunner.class
+com\qait\automation\KPlus_Test_Automation\cucumber\steps\UserRegistrationSteps.class
+com\qait\automation\KPlus_Test_Automation\cucumber\steps\serenity\KPlusSteps.class
+com\qait\automation\KPlus_Test_Automation\cucumber\steps\PurchaseInfoPageSteps.class
+com\qait\automation\KPlus_Test_Automation\cucumber\UserRegistrationRunner.class

@@ -1,0 +1,17 @@
+user_information:
+   FIRST_NAME: "kplustestqa"
+   ADDRESS_1: "860 Winter Street"
+   CITY: "Waltham"
+   STATE: "MASSACHUSETTS"
+   ZIP_CODE: "02451"
+   PLACE_OF_WORK_OR_STUDY: "Other"
+   SPECIALTY: "Addiction"
+   NPI: "1234567890"
+   
+account_information:
+   PASSWORD: "mmstest"
+   
+card_information:
+   NAME_ON_CARD: "tester"
+   CARD_NUMBER: "4111 1111 1111 1111"
+   EXPIRY: "02/21"

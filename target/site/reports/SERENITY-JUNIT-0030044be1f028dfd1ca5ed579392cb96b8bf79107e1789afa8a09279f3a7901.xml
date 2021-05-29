@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="User is able to purchase a product from purchase info page" skipped="0" tests="1" time="178.99" timestamp="2020-10-01 02:40:34"><testcase name="TC_510_As a new user, I need to purchase a medicine pack from purchase info page"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.qait.automation.KPlus_Test_Automation.cucumber.steps.PurchaseInfoPageSteps.Receipt_Contains(PurchaseInfoPageSteps.java:219)&#13;
+✽.Receipt contains $399.00(src/test/resources/features/purchase-info-page.feature:19)&#13;
+</system-err></testcase></testsuite>

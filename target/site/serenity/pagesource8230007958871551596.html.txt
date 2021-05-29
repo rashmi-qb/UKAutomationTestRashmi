@@ -1,0 +1,303 @@
+<!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]--><!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]--><!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]--><!--[if gt IE 8]><!--><html xmlns="http://www.w3.org/1999/xhtml" class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths wf-ffscalasanswebprosc-n7-active wf-ffscalasanswebprosc-n4-active wf-ffscalasanswebpro-n7-active wf-ffscalasanswebpro-i7-active wf-ffscalasanswebpro-n4-active wf-ffscalasanswebpro-i4-active wf-ffquadraatwebpro-n7-active wf-ffquadraatwebpro-i7-active wf-ffquadraatwebpro-i4-active wf-ffquadraatwebpro-n4-active wf-ffscalasanspro-n7-active wf-ffscalasanspro-i7-active wf-ffscalasanspro-i4-active wf-ffscalasanspro-n4-active wf-active"><!--<![endif]--><head>
+    <title>NEJM Knowledge+</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="NEJM Knowledge Plus" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="/Content/images/favicon.ico" />
+<link href="/content/css/shell-main?v=-W94-Hu8BTzv7Zk2nZV7WQd0fAvH6hhj-tOgzz2tpU41" rel="stylesheet" />
+
+<link href="/content/themes/base/jqueryui?v=y5bnVXoVccEzw6FPc8La2BrIpqsD9Z4bQoQ7nJzZdR81" rel="stylesheet" />
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ecommerce.js"></script><script src="https://connect.facebook.net/signals/config/1653984471533435?v=2.9.18&amp;r=stable" async=""></script><script async="" src="//connect.facebook.net/en_US/fbevents.js"></script><script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/releases/-wV2EAWEOTlEtZh4vNQtn3H1/recaptcha__en.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+<script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+
+<script src="//docs.paymentjs.firstdata.com/lib/uat/client-2.0.0.js"></script>
+<script src="/bundles/js?v=cxu48uafajOvxHlrHSb-uQPuOKx0xsudV0yttKrehYU1"></script>
+
+<script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.js"></script>
+<script type="text/javascript" src="//use.typekit.net/rsb2tve.js"></script>
+<style type="text/css">.tk-ff-scala-sans-web-pro-sc{font-family:"ff-scala-sans-web-pro-sc",sans-serif;}.tk-ff-scala-sans-web-pro{font-family:"ff-scala-sans-web-pro",sans-serif;}.tk-ff-quadraat-web-pro{font-family:"ff-quadraat-web-pro",sans-serif;}.tk-ff-scala-sans-pro{font-family:"ff-scala-sans-pro",sans-serif;}</style><style type="text/css">@font-face{font-family:ff-scala-sans-web-pro-sc;src:url(https://use.typekit.net/af/6eef05/0000000000000000000169a6/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/6eef05/0000000000000000000169a6/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff"),url(https://use.typekit.net/af/6eef05/0000000000000000000169a6/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:ff-scala-sans-web-pro-sc;src:url(https://use.typekit.net/af/7d2681/0000000000000000000169a9/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/7d2681/0000000000000000000169a9/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff"),url(https://use.typekit.net/af/7d2681/0000000000000000000169a9/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:ff-scala-sans-web-pro;src:url(https://use.typekit.net/af/d00375/0000000000000000000169b6/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/d00375/0000000000000000000169b6/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff"),url(https://use.typekit.net/af/d00375/0000000000000000000169b6/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:ff-scala-sans-web-pro;src:url(https://use.typekit.net/af/8fd15c/0000000000000000000169b7/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/8fd15c/0000000000000000000169b7/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("woff"),url(https://use.typekit.net/af/8fd15c/0000000000000000000169b7/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:ff-scala-sans-web-pro;src:url(https://use.typekit.net/af/6aac44/0000000000000000000169bd/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/6aac44/0000000000000000000169bd/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff"),url(https://use.typekit.net/af/6aac44/0000000000000000000169bd/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:ff-scala-sans-web-pro;src:url(https://use.typekit.net/af/977212/0000000000000000000169ba/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/977212/0000000000000000000169ba/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("woff"),url(https://use.typekit.net/af/977212/0000000000000000000169ba/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:ff-quadraat-web-pro;src:url(https://use.typekit.net/af/187fca/000000000000000000016917/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/187fca/000000000000000000016917/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("woff"),url(https://use.typekit.net/af/187fca/000000000000000000016917/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n7&amp;v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:ff-quadraat-web-pro;src:url(https://use.typekit.net/af/b42fc0/000000000000000000016918/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/b42fc0/000000000000000000016918/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("woff"),url(https://use.typekit.net/af/b42fc0/000000000000000000016918/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i7&amp;v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:ff-quadraat-web-pro;src:url(https://use.typekit.net/af/ae8141/000000000000000000016919/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/ae8141/000000000000000000016919/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("woff"),url(https://use.typekit.net/af/ae8141/000000000000000000016919/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=i4&amp;v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:ff-quadraat-web-pro;src:url(https://use.typekit.net/af/d7b585/00000000000000000001691a/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/d7b585/00000000000000000001691a/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("woff"),url(https://use.typekit.net/af/d7b585/00000000000000000001691a/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&amp;fvd=n4&amp;v=3) format("opentype");font-weight:400;font-style:normal;}@font-face{font-family:ff-scala-sans-pro;src:url(https://use.typekit.net/af/183e60/00000000000000003b9b1f59/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/183e60/00000000000000003b9b1f59/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3) format("woff"),url(https://use.typekit.net/af/183e60/00000000000000003b9b1f59/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n7&amp;v=3) format("opentype");font-weight:700;font-style:normal;}@font-face{font-family:ff-scala-sans-pro;src:url(https://use.typekit.net/af/36703d/00000000000000003b9b1f5a/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i7&amp;v=3) format("woff2"),url(https://use.typekit.net/af/36703d/00000000000000003b9b1f5a/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i7&amp;v=3) format("woff"),url(https://use.typekit.net/af/36703d/00000000000000003b9b1f5a/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i7&amp;v=3) format("opentype");font-weight:700;font-style:italic;}@font-face{font-family:ff-scala-sans-pro;src:url(https://use.typekit.net/af/33161f/00000000000000003b9b1f5b/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/33161f/00000000000000003b9b1f5b/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i4&amp;v=3) format("woff"),url(https://use.typekit.net/af/33161f/00000000000000003b9b1f5b/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=i4&amp;v=3) format("opentype");font-weight:400;font-style:italic;}@font-face{font-family:ff-scala-sans-pro;src:url(https://use.typekit.net/af/0f7856/00000000000000003b9b1f5e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3) format("woff2"),url(https://use.typekit.net/af/0f7856/00000000000000003b9b1f5e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3) format("woff"),url(https://use.typekit.net/af/0f7856/00000000000000003b9b1f5e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&amp;fvd=n4&amp;v=3) format("opentype");font-weight:400;font-style:normal;}</style><script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+<script src="//assets.adobedtm.com/launch-EN989432184b054e9dbb47e6aff38f635e-development.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-2417843-12"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-2417843-12');
+</script><script type="text/javascript">(function (i, s, o, g, r, a, m) { i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o), m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m) })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga'); 
+ga('create', 'UA-2417843-12', 'auto');
+ga('require', 'ecommerce');
+</script>
+<!-- Twitter universal website tag code --> 
+<script src="//platform.twitter.com/oct.js" type="text/javascript"></script> 
+<!-- End Twitter universal website tag code --> <script>_satellite["__runScript1"](function(event, target) {
+&lt;!-- Facebook Pixel Code --&gt; 
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod? 
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n; 
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0; 
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window, 
+document,'script','//connect.facebook.net/en_US/fbevents.js'); 
+
+fbq('init', '1653984471533435'); 
+_satellite.logger.info('fb tracking: init',1)
+fbq('track', "PageView");
+_satellite.logger.info('fb tracking: pageview',1)
+// Track key page views (ex: product page, landing page or article) 
+fbq('track', 'ViewContent'); 
+_satellite.logger.info('fb tracking: viewcontent',1)
+&lt;!-- End Facebook Pixel Code --&gt; 
+});</script>
+
+
+<script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/975408215/?random=1589365842028&amp;cv=9&amp;fst=1589365842028&amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=10&amp;u_tz=330&amp;u_java=false&amp;u_nplug=3&amp;u_nmime=4&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fqasecureknowledgeplus.nejm.org%2Fbuy%2FKPIM-IND%3Fpromo%3DMWEBHDR%26b%3DIq9OgwBG%26browserId%3DIq9OgwBG%26prodselected%3DTrue%26step%3D0&amp;ref=https%3A%2F%2Fqasecureknowledgeplus.nejm.org%2Fbuy%2FKPIM-IND%3Fpromo%3DMWEBHDR%26b%3DIq9OgwBG%26prodselected%3DTrue%26step%3D0&amp;tiba=NEJM%20Knowledge%2B&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script></head>
+<body>
+    <!-- body-pad -->
+    <div class="body-pad">
+        <!-- wrapper -->
+        <div class="wrapper">
+            <!-- header -->
+            <div class="header">
+                <!-- logo -->
+                <div class="logo" style="">
+                    <a href="http://knowledgeplusqa.nejm.org/">
+                        <img src="/Resources/shell_pages/default/images/nejmKplusLogo.png" width="200" height="65" alt="NEJM Knowledge Plus" />
+                    </a>
+                </div>
+                <!-- /logo -->
+                <!-- navs and tabs -->
+                <div class="navGroup">
+                    <div class="tabNav">
+                        <ul>
+                            <li>Call Toll-Free 1-855-318-9303</li>
+                        </ul>
+                    </div>
+                    <div class="utilNav">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /navs and tabs -->
+
+            </div>
+            <!-- /header -->
+            <!-- container -->
+            <div class="container">
+                
+
+                <!-- main-wrap just trying out where a ribbon bar could go: <div style="height: 30px; background-color: #009999; ">lslsls</div>-->
+                <div class="main-wrap">
+                    <!-- fluid -->
+                    <div class="fluid">
+                        <!-- main -->
+                        <div class="main">
+                            <div class="h1-group h1-border">
+                                <h1 class="cdf-h1">Purchase</h1>
+                            </div>
+                            
+<noscript>
+    &lt;meta http-equiv="refresh" content="0; URL=/site/jscript"&gt;
+</noscript>
+
+
+
+<script type="text/javascript">
+
+    //disable jq validation onkeyup, onclick and onfocusout, so the message retains after submit.
+    $.validator.setDefaults({
+        onkeyup: false,
+        onclick: false,
+        onfocusout: false
+    })
+
+    $.ajaxSetup ({
+        // Disable caching of AJAX responses
+        cache: false,
+        async:true
+    });
+
+    cdf.IsCurrentSubscriber = false;
+    cdf.RootURL = '/';
+    cdf.ServerValidation = true;
+    cdf.ValidateVAT = true;
+    cdf.WorkflowStart = "";
+    cdf.sessionTimeoutWarningEnabled = true;
+    cdf.sessionTimeoutWarningMinutes = "3";
+    cdf.reinitSession();
+    cdf.GDPRCountries = ["alb","aut","bel","bgr","can","hrv","cyp","cze","dnk","est","fin","fra","deu","grc","hun","isl","irl","ita","lva","lie","ltu","lux","mkd","mlt","mne","nld","nor","pol","prt","rou","srb","svk","svn","esp","swe","che","tur","gbr"];
+    cdf.GDPRDomains = [".al",".at",".be",".bg",".ca",".hr",".cy",".cz",".dk",".ee",".fi",".fr",".de",".gr",".hu",".is",".ie",".it",".lv",".li",".lt",".lu",".mk",".mt",".me",".nl",".no",".pl",".pt",".ro",".rs",".sk",".si",".es",".se",".ch",".tr",".uk"];
+    cdf.isSignedIn = true;
+</script>
+
+<div id="messagelayer" style="display: none;">
+    <a href="javascript:void(0);">
+        <img id="layerClose" src="/content/images/layerClose.png" alt="Close" title="Close" style="float:right;position:relative;top:10px;right:10px;" />
+    </a>
+    <p id="layer-window-message"></p>
+    <br />
+    <div id="layer-window-button-group">
+        <a id="layer-window-ok" href="javascript:void(0);" class="b layer-window-button">Ok</a>
+    </div>
+</div>
+
+
+<div>
+                    <h2 class="cdf-h2">Welcome, Kplustestqa. (<a href="/user/signout">Sign out.</a>)</h2>
+                <p>
+                    According to our records, you have already purchased this product.
+                    If you have questions about your access, please
+                    <a id="mail-to-customer-service" href="mailto:knowledgeplussupport@nejm.org">email us</a> or
+                    call us toll-free at 1-855-318-9303 (within the USA and Canada) or 781-434-7998
+                    and we will be happy to assist you.
+                </p>
+                <br />
+
+
+<div class="myProducts">
+    <h1>My Products</h1>
+                <h2>
+                    Internal Medicine Board Review
+                    <br />
+                    <em>(Term: May 13, 2020 – May 13, 2021)</em>
+                    <a class="extendLink" href="/extend/KPIM-IND?promo=MTX1PR">+ Extend Access</a>
+                </h2>
+                    <h3>You may log in to your product here:</h3>
+                    <p><a id="go-to-my-product" target="_blank" href="https://cloud2.area9.dk/flow/flowjs.html?name=binrunner&amp;prod=IMTEST&amp;token=EAAAAInaz9ocjH%2fdoTI8dmxE%2b6MR%2fEbN7CWShT2iKx6cc9%2bSH%2fxBIeLr8qWzz2whF3POoQ%3d%3d&amp;env=qa">Internal Medicine Board Review</a></p>
+            <br />
+                <h2>
+                    IM: Pain Management and Opioids
+                    <br />
+                    <em>(Term: May 13, 2020 – May 13, 2023)</em>
+                    <a class="extendLink" href="/extend/KPIM-IND-PMM?promo=MTX1PR">+ Extend Access</a>
+                        <a class="extendLink" href="/upgrade/KPIM-IND">+ Upgrade to Full Product</a>
+                </h2>
+                    <h3>You may log in to your product here:</h3>
+                    <p><a id="go-to-my-product" target="_blank" href="https://cloud2.area9.dk/flow/flowjs.html?name=binrunner&amp;prod=IMTEST&amp;token=EAAAAInaz9ocjH%2fdoTI8dmxE%2b6MR%2fEbN7CWShT2iKx6cc9%2bSH%2fxBIeLr8qWzz2whF3POoQ%3d%3d&amp;env=qa">IM: Pain Management and Opioids</a></p>
+            <br />
+        <p>Please bookmark this link for easy access in the future.</p>
+        <p>Alternatively, you can access your NEJM Knowledge+ products by logging in at <a id="go-to-core-product" href="http://knowledgeplusqa.nejm.org/">knowledgeplus.nejm.org</a>. </p>
+</div>
+
+</div>
+
+
+
+    <script type="text/javascript" src="https://kc149.infusionsoft.com/app/webTracking/getTrackingCode?trackingId=b565d3515e44e407a7edb6893c517edf"></script>
+
+
+                        </div>
+                        <!-- /main -->
+                    </div>
+                    <!-- /fluid -->
+                </div>
+                <!-- main-wrap -->
+                <!-- aside-wrap -->
+                <div class="aside-wrap">
+                    <div class="aside">
+                        
+
+        <div class="mod specialOffer">
+            <h1 class="specialOrange">Learning+ Blog</h1>
+            <img style="margin-top: 14px;" src="/Content/images/kplus-hero-blogbrain2-273.jpg" alt="Learning+ Blog" width="273" height="116" />
+            <p>Be sure to visit the NEJM Knowledge+ blog for the latest on education, self-evaluation, MOC requirements, and lifelong learning.</p>
+            <h3 class="cta"><a href="http://knowledgeplusqa.nejm.org/blog/">Visit Our Blog»</a></h3>
+        </div>
+
+
+
+    <div class="mod">
+        <h1>Questions? Contact us. </h1>        
+        <h2>Customer Support </h2>
+        <p>
+            Questions? Contact us 24x7x365
+            <br />
+            Please call us toll-free at 1-855-318-9303 (within the USA and Canada) or 781-434-7998
+            <br />
+            <a class="rightrail-links" href="mailto:knowledgeplussupport@nejm.org">knowledgeplussupport@nejm.org</a>
+        </p>
+    </div>
+
+    <div style="padding-top: 25px;">
+        <div class="image-float-right siteseal-resize">
+            <a href="javascript:void(0);" onclick="verifySslCert('https://sealsplash.geotrust.com/splash?&amp;dn=*.nejm.org')">
+                <img src="/content/images/ssl-valid-en-M.gif" oncontextmenu="return false;" alt="Click to Verify - This site has chosen a GeoTrust SSL Certificate to improve Web site security" />
+            </a>
+        </div>
+        <h2 class="rightrail">Your Security</h2>
+        <p>Your online transaction is secured with SSL encryption.</p>
+    </div>
+
+<script type="text/javascript">
+    $(function () {
+        $.eventListener("div.aside-wrap a", "commerce", "rightRail");
+        $.eventListener("div.specialRenew a", "commerce", "rightRail", "ad-renew-fm");
+    });
+</script>
+                    </div>
+                </div>
+                <!-- /aside-wrap -->
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- /wrapper -->
+    </div>
+    <!-- /body-pad -->
+    <!-- footer -->
+    <div class="footer">
+        <div class="footerLinks">
+            <ul>
+            </ul>
+        </div>
+        <!-- /footer -->
+        <!-- copyright -->
+        <div class="copyright">
+            <p>NEJM Knowledge+ is a product of <a href="http://www.nejmgroup.org">NEJM Group</a>, a division of the Massachusetts Medical Society.</p>
+            <p>Copyright © <span id="copyDate">2020</span> <a href="http://www.massmed.org/">Massachusetts Medical Society</a>. All rights reserved.</p>
+            <div class="nejmGroup">
+                <a href="http://www.nejmgroup.org"><img src="/Resources/shell_pages/default/images/nejmGroup.gif" width="90" height="37" alt="NEJM Group" longdesc="http://www.nejmgroup.org" /></a>
+            </div>
+        </div>
+        <!-- /copyright -->
+    </div> <!-- /footer -->
+    <!--GA-->
+<script type="text/javascript">
+    /* &lt;![CDATA[ */
+    var google_conversion_id = 975408215;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]&gt; */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    &lt;div style="display:inline;"&gt;
+        &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/975408215/?value=0&amp;amp;guid=ON&amp;amp;script=0" /&gt;
+    &lt;/div&gt;
+</noscript>
+
+
+<!--BEGIN QUALTRICS WEBSITE FEEDBACK SNIPPET-->
+<script type="text/javascript">
+(function(){var g=function(e,h,f,g){
+this.get=function(a){for(var a=a+"=",c=document.cookie.split(";"),b=0,e=c.length;b&lt;e;b++){for(var d=c[b];" "==d.charAt(0);)d=d.substring(1,d.length);if(0==d.indexOf(a))return d.substring(a.length,d.length)}return null};
+this.set=function(a,c){var b="",b=new Date;b.setTime(b.getTime()+6048E5);b="; expires="+b.toGMTString();document.cookie=a+"="+c+b+"; path=/; "};
+this.check=function(){var a=this.get(f);if(a)a=a.split(":");else if(100!=e)"v"==h&amp;&amp;(e=Math.random()&gt;=e/100?0:100),a=[h,e,0],this.set(f,a.join(":"));else return!0;var c=a[1];if(100==c)return!0;switch(a[0]){case "v":return!1;case "r":return c=a[2]%Math.floor(100/c),a[2]++,this.set(f,a.join(":")),!c}return!0};
+this.go=function(){if(this.check()){var a=document.createElement("script");a.type="text/javascript";a.src=g+ "&amp;t=" + (new Date()).getTime();document.body&amp;&amp;document.body.appendChild(a)}};
+this.start=function(){var a=this;window.addEventListener?window.addEventListener("load",function(){a.go()},!1):window.attachEvent&amp;&amp;window.attachEvent("onload",function(){a.go()})}};
+try{(new g(100,"r","QSI_S_ZN_3OWdQdLXu72cWNv","https://zn3owdqdlxu72cwnv-nejm.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_3OWdQdLXu72cWNv&amp;Q_LOC="+encodeURIComponent(window.location.href))).start()}catch(i){}})();
+</script><div id="ZN_3OWdQdLXu72cWNv"><!--DO NOT REMOVE-CONTENTS PLACED HERE--></div>
+<!--END WEBSITE FEEDBACK SNIPPET--><div class="remodal-overlay remodal-is-closed" style="display: none;"></div><div class="remodal-wrapper remodal-is-closed" style="display: none;"><div id="userConsent" class="remodal remodal-is-initialized remodal-is-closed" data-remodal-id="user-consent-dialog" tabindex="-1">
+    <button data-remodal-action="close" class="remodal-close"></button>
+    <div class="modal-dialog-body">
+        <div id="consent-window-message">
+
+        </div>
+        <div class="modal-dialog-actions">
+            <button id="consent-window-cancel" data-remodal-action="cancel" class="b layer-window-button">Cancel</button>
+            <button id="consent-window-continue" data-remodal-action="confirm" class="b layer-window-button">Continue</button>
+            <button id="consent-window-ok" data-remodal-action="cancel" class="b layer-window-button">OK</button>
+        </div>
+    </div>
+</div></div><iframe src="https://kc149.infusionsoft.app/app/webTracking/websiteTriggerIframe" hidden=""></iframe><script type="text/javascript" src="https://zn3owdqdlxu72cwnv-nejm.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_3OWdQdLXu72cWNv&amp;Q_LOC=https%3A%2F%2Fqasecureknowledgeplus.nejm.org%2Fbuy%2FKPIM-IND%3Fpromo%3DMWEBHDR%26b%3DIq9OgwBG%26browserId%3DIq9OgwBG%26prodselected%3DTrue%26step%3D0&amp;t=1589365843526"></script><script src="https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=1.26.1&amp;Q_CLIENTTYPE=web" defer=""></script></body></html>

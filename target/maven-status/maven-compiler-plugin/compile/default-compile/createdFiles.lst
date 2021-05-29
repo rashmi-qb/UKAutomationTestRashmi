@@ -1,0 +1,14 @@
+com\qait\automation\KPlus_Test_Automation\pages\BasePage$1.class
+com\qait\automation\KPlus_Test_Automation\pages\LoginPage.class
+com\qait\automation\KPlus_Test_Automation\pages\ProfilePage.class
+com\qait\automation\KPlus_Test_Automation\pages\PurchaseConfirmation.class
+com\qait\automation\KPlus_Test_Automation\pages\PurchaseInfoPage.class
+com\qait\automation\KPlus_Test_Automation\pages\DashBoardPage$1.class
+com\qait\automation\KPlus_Test_Automation\pages\BasePage.class
+com\qait\automation\KPlus_Test_Automation\pages\PurchasePage.class
+com\qait\automation\KPlus_Test_Automation\pages\OrdersPage.class
+com\qait\automation\KPlus_Test_Automation\utils\PetCategories.class
+com\qait\automation\KPlus_Test_Automation\pages\AccountsPage.class
+com\qait\automation\KPlus_Test_Automation\pages\DashBoardPage.class
+com\qait\automation\KPlus_Test_Automation\pages\ProductsPage.class
+com\qait\automation\KPlus_Test_Automation\pages\HelpPage.class

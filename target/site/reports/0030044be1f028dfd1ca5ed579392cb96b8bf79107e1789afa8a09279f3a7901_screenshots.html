@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">KPLUS Automation</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="bcceeb89d247fc291ca6b139acc35119c71c27bcba2e7f2e07d981c753505677.html">User Is Able To Purchase A Product From Purchase Info Page</a></span>
+                > <span class="truncate-60"><a
+                    href="0030044be1f028dfd1ca5ed579392cb96b8bf79107e1789afa8a09279f3a7901.html">TC_510_As a new user, I need to purchase a medicine pack from purchase info page </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-10-2020 14:40</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">User Is Able To Purchase A Product From Purchase Info Page </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">TC_510_As a new user, I need to purchase a medicine pack from purchase info page
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.qait.automation.KPlus_Test_Automation.cucumber.steps.PurchaseInfoPageSteps.Receipt_Contains(PurchaseInfoPageSteps.java:219)<br />✽.Receipt contains $399.00(src/test/resources/features/purchase-info-page.feature:19)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource4219554251838668200.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a90644920bdba33f113914b13d4ab35a02aca8fbde6eed3578270bddb3491597.png" title=" Given I navigate to the purchase info page" width="1366"/>
+                <img src="a90644920bdba33f113914b13d4ab35a02aca8fbde6eed3578270bddb3491597.png" title=" Navigating to Purchase Login Page" width="1366"/>
+                <img src="a90644920bdba33f113914b13d4ab35a02aca8fbde6eed3578270bddb3491597.png" title=" Navigating to Purchase Login Page (completed)" width="1366"/>
+                <img src="a90644920bdba33f113914b13d4ab35a02aca8fbde6eed3578270bddb3491597.png" title=" Given I navigate to the purchase info page (completed)" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" When I select Student from Professional Category dropdown" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Select Student from Professional Category dropdown" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Select Student from Professional Category dropdown (completed)" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" When I select Student from Professional Category dropdown (completed)" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of IM is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Price of category IM is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of IM is $399.00 (completed)" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of FM is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Price of category FM is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of FM is $399.00 (completed)" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of PD is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Price of category PD is $399.00" width="1366"/>
+                <img src="e52a9c5df0d1c31eaf4e71789f8118278ed05252c582e7f49ef08da275606b1f.png" title=" Then Price of PD is $399.00 (completed)" width="1366"/>
+                <img src="b9e12c6da07acf473c44decd0b8654c89e00be019768e9f3edb6860148a2d21a.png" title=" And I Select IM Checkbox" width="1366"/>
+                <img src="b9e12c6da07acf473c44decd0b8654c89e00be019768e9f3edb6860148a2d21a.png" title=" Select IM checkbox" width="1366"/>
+                <img src="b9e12c6da07acf473c44decd0b8654c89e00be019768e9f3edb6860148a2d21a.png" title=" Select IM checkbox (completed)" width="1366"/>
+                <img src="b9e12c6da07acf473c44decd0b8654c89e00be019768e9f3edb6860148a2d21a.png" title=" And I Select IM Checkbox (completed)" width="1366"/>
+                <img src="10571185bd431e432163d1eb60d4c48a96345e701ae4cda02b12f9334761ef88.png" title=" And I click Continue Button" width="1366"/>
+                <img src="10571185bd431e432163d1eb60d4c48a96345e701ae4cda02b12f9334761ef88.png" title=" Click continue button" width="1366"/>
+                <img src="bbd264ab5b49d26c05401170a28b5014bd1ccb3b02a89de1a353b8717fb0e53f.png" title=" Click continue button (completed)" width="1366"/>
+                <img src="bbd264ab5b49d26c05401170a28b5014bd1ccb3b02a89de1a353b8717fb0e53f.png" title=" And I click Continue Button (completed)" width="1366"/>
+                <img src="7c0900aba6ef785a348f5297032b68cdb264026b8ddd13ee68998b27366e123e.png" title=" Then I add user information" width="1366"/>
+                <img src="7c0900aba6ef785a348f5297032b68cdb264026b8ddd13ee68998b27366e123e.png" title=" Adding user information" width="1366"/>
+                <img src="054ca97efc67f0d2742aac6c253a60ae30e9012758233e71dd3ce5d559242518.png" title=" Adding user information" width="1366"/>
+                <img src="1e5e71a8f09ecd9691fac751b4cdd72f5b2e3153fa4ab1976eab76d411408d6b.png" title=" Adding user information" width="1366"/>
+                <img src="85cc953486305510d27aa0aec33c29917d60e0b6f8b25018580a77b17f9edaa5.png" title=" Adding user information" width="1366"/>
+                <img src="3518b75844ddd8424cb2ab97b0339c2586086ea056090f41d6548a82a2746694.png" title=" Adding user information" width="1366"/>
+                <img src="08d08536bf8999e31e616b66915afc839178ae54d2f77cbb11bfc3f04f3b15f2.png" title=" Adding user information" width="1366"/>
+                <img src="3036f31c0722547e5c55d5fed3a833307c2e288c60c1159a4ba4af797e9e31d4.png" title=" Adding user information" width="1366"/>
+                <img src="516467a29d55a9962a03d4a79c95219b745696815218c7c2596dbdf8705df0b3.png" title=" Adding user information" width="1366"/>
+                <img src="516467a29d55a9962a03d4a79c95219b745696815218c7c2596dbdf8705df0b3.png" title=" Adding user information (completed)" width="1366"/>
+                <img src="516467a29d55a9962a03d4a79c95219b745696815218c7c2596dbdf8705df0b3.png" title=" Then I add user information (completed)" width="1366"/>
+                <img src="a9e68684ace674da7c5258e8983f5ad8a342cd733e469c53f07526ad53d2cade.png" title=" Then I add user account information" width="1366"/>
+                <img src="a9e68684ace674da7c5258e8983f5ad8a342cd733e469c53f07526ad53d2cade.png" title=" Adding account information with email: kplustestqa_test9933@nejmemail.com" width="1366"/>
+                <img src="061fc173616f276203b6e847200b914f383d98d5f675530844c4681903f8e66d.png" title=" Adding account information with email: kplustestqa_test9933@nejmemail.com" width="1366"/>
+                <img src="138ee4487dda4d07c75bbb3426b9f29d4da7a8003ea90133fe8b4bdf17fe979a.png" title=" Adding account information with email: kplustestqa_test9933@nejmemail.com" width="1366"/>
+                <img src="d7ea382c4079fefc57a0dc7e1719ae84268da1689c69a6d8a4071b27643584ab.png" title=" Adding account information with email: kplustestqa_test9933@nejmemail.com" width="1366"/>
+                <img src="d7ea382c4079fefc57a0dc7e1719ae84268da1689c69a6d8a4071b27643584ab.png" title=" Adding account information with email: kplustestqa_test9933@nejmemail.com (completed)" width="1366"/>
+                <img src="d7ea382c4079fefc57a0dc7e1719ae84268da1689c69a6d8a4071b27643584ab.png" title=" Then I add user account information (completed)" width="1366"/>
+                <img src="b0ee17d574c716906388f6c0382bb1a5c1735fcbf6e6b39b6c7e1aba5dbd89e7.png" title=" Then I add card information" width="1366"/>
+                <img src="b0ee17d574c716906388f6c0382bb1a5c1735fcbf6e6b39b6c7e1aba5dbd89e7.png" title=" Adding card information" width="1366"/>
+                <img src="6f2e087dfcecf61fad50412bc1f468009e3b2651a8c4d3faa87457c412fe832a.png" title=" Adding card information" width="1366"/>
+                <img src="58b5f64284b3756c4dc43dd2a49cb490c5590f9706ff40214dcc244cf779079e.png" title=" Adding card information" width="1366"/>
+                <img src="58b5f64284b3756c4dc43dd2a49cb490c5590f9706ff40214dcc244cf779079e.png" title=" Adding card information (completed)" width="1366"/>
+                <img src="58b5f64284b3756c4dc43dd2a49cb490c5590f9706ff40214dcc244cf779079e.png" title=" Then I add card information (completed)" width="1366"/>
+                <img src="319094d7d0dfe2a128823abe769a17641615caf87fe342e9a1b90625a34de80d.png" title=" And I click Submit Button" width="1366"/>
+                <img src="319094d7d0dfe2a128823abe769a17641615caf87fe342e9a1b90625a34de80d.png" title=" Click submit button" width="1366"/>
+                <img src="319094d7d0dfe2a128823abe769a17641615caf87fe342e9a1b90625a34de80d.png" title=" Click submit button (completed)" width="1366"/>
+                <img src="7fec05ccf4befa6c6c450e39c57c9e2b2dff3e2ec26c5ba8cf5ecae831ae670a.png" title=" And I click Submit Button (completed)" width="1366"/>
+                <img src="7fec05ccf4befa6c6c450e39c57c9e2b2dff3e2ec26c5ba8cf5ecae831ae670a.png" title=" Then Purchase Confirmation Page Displays" width="1366"/>
+                <img src="7fec05ccf4befa6c6c450e39c57c9e2b2dff3e2ec26c5ba8cf5ecae831ae670a.png" title=" Verify Confirmation Message" width="1366"/>
+                <img src="7fec05ccf4befa6c6c450e39c57c9e2b2dff3e2ec26c5ba8cf5ecae831ae670a.png" title=" Then Purchase Confirmation Page Displays (completed)" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" And I click your profile link" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" Click your profile link" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" Click your profile link (completed)" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" And I click your profile link (completed)" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" Then Verify Welcome Message" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" Verify Welcome Message" width="1366"/>
+                <img src="4098d0f9efe1c3b1af0726e6417aad241bbd2ecb43ccc4b4af022d865914c1f6.png" title=" Then Verify Welcome Message (completed)" width="1366"/>
+                <img src="52333dc36e6f3aa15f5678d6f8593e4a534b61a6e5bc0ae77826d90d8f7c89a4.png" title=" Then I download the Receipt" width="1366"/>
+                <img src="52333dc36e6f3aa15f5678d6f8593e4a534b61a6e5bc0ae77826d90d8f7c89a4.png" title=" I download the Receipt" width="1366"/>
+                <img src="52333dc36e6f3aa15f5678d6f8593e4a534b61a6e5bc0ae77826d90d8f7c89a4.png" title=" I download the Receipt (completed)" width="1366"/>
+                <img src="cd4504b7c7af7943b6d2476dcde5dffbe8a6c8cf5baaf63c42cff5eacd6b3c42.png" title=" Then I download the Receipt (completed)" width="1366"/>
+                <img src="cd4504b7c7af7943b6d2476dcde5dffbe8a6c8cf5baaf63c42cff5eacd6b3c42.png" title=" Then Receipt contains $399.00" width="1366"/>
+                <img src="cd4504b7c7af7943b6d2476dcde5dffbe8a6c8cf5baaf63c42cff5eacd6b3c42.png" title=" Receipt contains $399.00" width="1366"/>
+                <img src="cd4504b7c7af7943b6d2476dcde5dffbe8a6c8cf5baaf63c42cff5eacd6b3c42.png" title=" Then Receipt contains $399.00 (completed): <span class='failing-color'>FAILURE</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.69</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">KPLUS Automation</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="df45454bfefdb5fe41977297088ed9157ddccd91d13f1a75834e323464c3412e.html">Tax Scenarios Based On Different Countries</a></span>
+                > <span class="truncate-60"><a
+                    href="b092052f943f6035adf24f4cef4e77d570efacbb68859b65f87166a798586c1c.html">TC_4801_Verify for Canada different tax amounts are calculated based on the All Provinces </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-05-2020 16:22</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Tax Scenarios Based On Different Countries </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">TC_4801_Verify for Canada different tax amounts are calculated based on the All Provinces
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="bf404f7a35cfc4b67d57f511b122e489ac2a883ca7a6f23ebeab048a536b5272.png" title=" Given I navigate to the purchase info page" width="1920"/>
+                <img src="bf404f7a35cfc4b67d57f511b122e489ac2a883ca7a6f23ebeab048a536b5272.png" title=" Navigating to Purchase Login Page" width="1920"/>
+                <img src="bf404f7a35cfc4b67d57f511b122e489ac2a883ca7a6f23ebeab048a536b5272.png" title=" Navigating to Purchase Login Page (completed)" width="1920"/>
+                <img src="bf404f7a35cfc4b67d57f511b122e489ac2a883ca7a6f23ebeab048a536b5272.png" title=" Given I navigate to the purchase info page (completed)" width="1920"/>
+                <img src="d81f701e8a2bfa4be8ad13cefe31a5172c05c73d81fd42aa3d8fa99a900a9892.png" title=" When I select Student from Professional Category dropdown" width="1920"/>
+                <img src="d81f701e8a2bfa4be8ad13cefe31a5172c05c73d81fd42aa3d8fa99a900a9892.png" title=" Select Student from Professional Category dropdown" width="1920"/>
+                <img src="d81f701e8a2bfa4be8ad13cefe31a5172c05c73d81fd42aa3d8fa99a900a9892.png" title=" Select Student from Professional Category dropdown (completed)" width="1920"/>
+                <img src="d81f701e8a2bfa4be8ad13cefe31a5172c05c73d81fd42aa3d8fa99a900a9892.png" title=" When I select Student from Professional Category dropdown (completed)" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of IM is $399.00" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Price of category IM is" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of IM is $399.00 (completed)" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of FM is $399.00" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Price of category FM is" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of FM is $399.00 (completed)" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of PD is $399.00" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Price of category PD is" width="1920"/>
+                <img src="8bb0351633d4c673b7941dd6ac70e0d033ac9804f45a446d6d3f6f13995e52eb.png" title=" Then Price of PD is $399.00 (completed)" width="1920"/>
+                <img src="c1507e0490d1200610362d54a0e200631f455c3f02495190e9195bc385408652.png" title=" And I Select IM Checkbox" width="1920"/>
+                <img src="c1507e0490d1200610362d54a0e200631f455c3f02495190e9195bc385408652.png" title=" Select IM checkbox" width="1920"/>
+                <img src="c1507e0490d1200610362d54a0e200631f455c3f02495190e9195bc385408652.png" title=" Select IM checkbox (completed)" width="1920"/>
+                <img src="c1507e0490d1200610362d54a0e200631f455c3f02495190e9195bc385408652.png" title=" And I Select IM Checkbox (completed)" width="1920"/>
+                <img src="053c9ad67a130a197469f82cd75ae5f6846b25b46f1978ca0b2d33879a6e23a9.png" title=" And I click Continue Button" width="1920"/>
+                <img src="053c9ad67a130a197469f82cd75ae5f6846b25b46f1978ca0b2d33879a6e23a9.png" title=" Click continue button" width="1920"/>
+                <img src="8c3e1b416714e2284640ae2f5a5ffc2e1b7356a0d8dac51b57e5b17c1d8f51a9.png" title=" Click continue button (completed)" width="1920"/>
+                <img src="8c3e1b416714e2284640ae2f5a5ffc2e1b7356a0d8dac51b57e5b17c1d8f51a9.png" title=" And I click Continue Button (completed)" width="1920"/>
+                <img src="717c5ce69524ab58d2281cfcc90fb0674976e475347ea5309b6c84abdfe5c997.png" title=" Then I add first name as kplustestqa" width="1920"/>
+                <img src="717c5ce69524ab58d2281cfcc90fb0674976e475347ea5309b6c84abdfe5c997.png" title=" I add first name as kplustestqa" width="1920"/>
+                <img src="717c5ce69524ab58d2281cfcc90fb0674976e475347ea5309b6c84abdfe5c997.png" title=" I add first name as kplustestqa (completed)" width="1920"/>
+                <img src="717c5ce69524ab58d2281cfcc90fb0674976e475347ea5309b6c84abdfe5c997.png" title=" Then I add first name as kplustestqa (completed)" width="1920"/>
+                <img src="e2aefc443ffa1416f8e23c48a6ab1f237319b3806c9744ddeb664a133a10a310.png" title=" Then I add last name" width="1920"/>
+                <img src="e2aefc443ffa1416f8e23c48a6ab1f237319b3806c9744ddeb664a133a10a310.png" title=" I add last name" width="1920"/>
+                <img src="a92e2d18053c502cca67c42e6558b4a20df3066d8ebff4ff49e1497a0ea7be26.png" title=" I add last name" width="1920"/>
+                <img src="a92e2d18053c502cca67c42e6558b4a20df3066d8ebff4ff49e1497a0ea7be26.png" title=" I add last name (completed)" width="1920"/>
+                <img src="a92e2d18053c502cca67c42e6558b4a20df3066d8ebff4ff49e1497a0ea7be26.png" title=" Then I add last name (completed)" width="1920"/>
+                <img src="e4d9d99c12a51b0b63963624c480e3e24f168056747fc8f2265740fb0bebfc10.png" title=" Then I add Address as 5793 YONGE ST" width="1920"/>
+                <img src="e4d9d99c12a51b0b63963624c480e3e24f168056747fc8f2265740fb0bebfc10.png" title=" I add Address as 5793 YONGE ST" width="1920"/>
+                <img src="e4d9d99c12a51b0b63963624c480e3e24f168056747fc8f2265740fb0bebfc10.png" title=" I add Address as 5793 YONGE ST (completed)" width="1920"/>
+                <img src="e4d9d99c12a51b0b63963624c480e3e24f168056747fc8f2265740fb0bebfc10.png" title=" Then I add Address as 5793 YONGE ST (completed)" width="1920"/>
+                <img src="9fd590073cc41063357bcc64c72f45f327689f8bf97bfd28f8d5d758aa2c8100.png" title=" Then I add city as TORONTO" width="1920"/>
+                <img src="9fd590073cc41063357bcc64c72f45f327689f8bf97bfd28f8d5d758aa2c8100.png" title=" I add city as TORONTO" width="1920"/>
+                <img src="9fd590073cc41063357bcc64c72f45f327689f8bf97bfd28f8d5d758aa2c8100.png" title=" I add city as TORONTO (completed)" width="1920"/>
+                <img src="9fd590073cc41063357bcc64c72f45f327689f8bf97bfd28f8d5d758aa2c8100.png" title=" Then I add city as TORONTO (completed)" width="1920"/>
+                <img src="658805983cad212b2290e12be489f7c427c1a28ce55e4127e7e791a419a687ae.png" title=" Then I select country as CANADA" width="1920"/>
+                <img src="658805983cad212b2290e12be489f7c427c1a28ce55e4127e7e791a419a687ae.png" title=" I select country as CANADA" width="1920"/>
+                <img src="658805983cad212b2290e12be489f7c427c1a28ce55e4127e7e791a419a687ae.png" title=" I select country as CANADA (completed)" width="1920"/>
+                <img src="658805983cad212b2290e12be489f7c427c1a28ce55e4127e7e791a419a687ae.png" title=" Then I select country as CANADA (completed)" width="1920"/>
+                <img src="c6fb4821b13aab1e1c8f01a9472df1700aea4c4439f384ecd807ce11baa692a0.png" title=" Then I select province as ONTARIO" width="1920"/>
+                <img src="c6fb4821b13aab1e1c8f01a9472df1700aea4c4439f384ecd807ce11baa692a0.png" title=" I select province as ONTARIO" width="1920"/>
+                <img src="c6fb4821b13aab1e1c8f01a9472df1700aea4c4439f384ecd807ce11baa692a0.png" title=" I select province as ONTARIO (completed)" width="1920"/>
+                <img src="c6fb4821b13aab1e1c8f01a9472df1700aea4c4439f384ecd807ce11baa692a0.png" title=" Then I select province as ONTARIO (completed)" width="1920"/>
+                <img src="819a24f2dc7fd531d34d28cce94cb0354e316f71ab6f5c76d0d2f4f60fae8934.png" title=" Then I add postal code as M2M0A9" width="1920"/>
+                <img src="819a24f2dc7fd531d34d28cce94cb0354e316f71ab6f5c76d0d2f4f60fae8934.png" title=" I add postal code as M2M0A9" width="1920"/>
+                <img src="819a24f2dc7fd531d34d28cce94cb0354e316f71ab6f5c76d0d2f4f60fae8934.png" title=" I add postal code as M2M0A9 (completed)" width="1920"/>
+                <img src="819a24f2dc7fd531d34d28cce94cb0354e316f71ab6f5c76d0d2f4f60fae8934.png" title=" Then I add postal code as M2M0A9 (completed)" width="1920"/>
+                <img src="e786e5c33113339001660c0b4417ff7d35ea313c113a37e66b9e663163eb8326.png" title=" Then Verify Tax amount added is $51.87" width="1920"/>
+                <img src="e786e5c33113339001660c0b4417ff7d35ea313c113a37e66b9e663163eb8326.png" title=" Tax price added is {0}" width="1920"/>
+                <img src="7bf2ff12c26e133eeeddb56db913cab39e6cbef60957e1235f32cb9d126c54bf.png" title=" Then Verify Tax amount added is $51.87 (completed)" width="1920"/>
+                <img src="34fe9791f61843cb73c8169d3755ba327fe7f4644f2e833d67ca9148d2135a89.png" title=" Then I select place of work or study as Other" width="1920"/>
+                <img src="34fe9791f61843cb73c8169d3755ba327fe7f4644f2e833d67ca9148d2135a89.png" title=" I select place of work or study as Other" width="1920"/>
+                <img src="34fe9791f61843cb73c8169d3755ba327fe7f4644f2e833d67ca9148d2135a89.png" title=" I select place of work or study as Other (completed)" width="1920"/>
+                <img src="34fe9791f61843cb73c8169d3755ba327fe7f4644f2e833d67ca9148d2135a89.png" title=" Then I select place of work or study as Other (completed)" width="1920"/>
+                <img src="046a47ca0eaf8a0b0b1eca57ad8a51317ae3b2237cee7ceda4b11dc3bfd21ffd.png" title=" Then I select speciality as Addiction" width="1920"/>
+                <img src="046a47ca0eaf8a0b0b1eca57ad8a51317ae3b2237cee7ceda4b11dc3bfd21ffd.png" title=" I select speciality as Addiction" width="1920"/>
+                <img src="046a47ca0eaf8a0b0b1eca57ad8a51317ae3b2237cee7ceda4b11dc3bfd21ffd.png" title=" I select speciality as Addiction (completed)" width="1920"/>
+                <img src="046a47ca0eaf8a0b0b1eca57ad8a51317ae3b2237cee7ceda4b11dc3bfd21ffd.png" title=" Then I select speciality as Addiction (completed)" width="1920"/>
+                <img src="e75696ee40d0bea407ac929960b9fc968db816b4938753ecc255d6046568a3b5.png" title=" Then I add user account information" width="1920"/>
+                <img src="e75696ee40d0bea407ac929960b9fc968db816b4938753ecc255d6046568a3b5.png" title=" Adding account information with email: kplustestqa_test4656@nejmemail.com" width="1920"/>
+                <img src="535b44fa70a798e7eae87593ebe0d47d030a518bc43a2ac9139c302cd635f78d.png" title=" Adding account information with email: kplustestqa_test4656@nejmemail.com" width="1920"/>
+                <img src="f083874e5ea3d789cdf684ce65c019a48345ae07ec5002aa44870abdc5c34d90.png" title=" Adding account information with email: kplustestqa_test4656@nejmemail.com" width="1920"/>
+                <img src="14f444f4044f0c8ebc68b710693f103d0d553e6def88aca1a8045279b0d16db0.png" title=" Adding account information with email: kplustestqa_test4656@nejmemail.com (completed)" width="1920"/>
+                <img src="14f444f4044f0c8ebc68b710693f103d0d553e6def88aca1a8045279b0d16db0.png" title=" Then I add user account information (completed)" width="1920"/>
+                <img src="a05240f5a829b13f0a5f9de099f9a38ea6e6d150d912e86df4ab419ba5243518.png" title=" Then I add card information" width="1920"/>
+                <img src="a05240f5a829b13f0a5f9de099f9a38ea6e6d150d912e86df4ab419ba5243518.png" title=" Adding card information" width="1920"/>
+                <img src="dab120ef77e25c1908c92e64a71c7ef50fcd853b67e0e538bebd580292564fcd.png" title=" Adding card information" width="1920"/>
+                <img src="61ef5dd25fd31535a38b02f5d19df52c587c9cc50e7bf092011383cdb3524010.png" title=" Adding card information" width="1920"/>
+                <img src="61ef5dd25fd31535a38b02f5d19df52c587c9cc50e7bf092011383cdb3524010.png" title=" Adding card information (completed)" width="1920"/>
+                <img src="61ef5dd25fd31535a38b02f5d19df52c587c9cc50e7bf092011383cdb3524010.png" title=" Then I add card information (completed)" width="1920"/>
+                <img src="ce85d023b01f7aff9c033a3a233bcccb2bd76363cd5c0b0d44fce376503aa0d8.png" title=" And I click Submit Button" width="1920"/>
+                <img src="ce85d023b01f7aff9c033a3a233bcccb2bd76363cd5c0b0d44fce376503aa0d8.png" title=" Click submit button" width="1920"/>
+                <img src="ce85d023b01f7aff9c033a3a233bcccb2bd76363cd5c0b0d44fce376503aa0d8.png" title=" Click submit button (completed)" width="1920"/>
+                <img src="89388c6915210c9f3b5a43129b979d82f9b9bbccb479e9ea2a8433fb7a67d36a.png" title=" And I click Submit Button (completed)" width="1920"/>
+                <img src="89388c6915210c9f3b5a43129b979d82f9b9bbccb479e9ea2a8433fb7a67d36a.png" title=" Then Purchase Confirmation Page Displays" width="1920"/>
+                <img src="89388c6915210c9f3b5a43129b979d82f9b9bbccb479e9ea2a8433fb7a67d36a.png" title=" Verify Confirmation Message" width="1920"/>
+                <img src="89388c6915210c9f3b5a43129b979d82f9b9bbccb479e9ea2a8433fb7a67d36a.png" title=" Then Purchase Confirmation Page Displays (completed)" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" And I click your profile link" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" Click your profile link" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" Click your profile link (completed)" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" And I click your profile link (completed)" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" Then Verify Welcome Message" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" Verify Welcome Message" width="1920"/>
+                <img src="9390d275e3f4c11ac4f91a8ccb1acf9523c26d8bb1bb0c421837f303c61b723c.png" title=" Then Verify Welcome Message (completed)" width="1920"/>
+                <img src="3404d7ece4dfc8c01882342c84014834af8f64f7a466a9e93b41ae6395ebe0a8.png" title=" Then I download the Receipt" width="1920"/>
+                <img src="3404d7ece4dfc8c01882342c84014834af8f64f7a466a9e93b41ae6395ebe0a8.png" title=" I download the Receipt" width="1920"/>
+                <img src="3404d7ece4dfc8c01882342c84014834af8f64f7a466a9e93b41ae6395ebe0a8.png" title=" I download the Receipt (completed)" width="1920"/>
+                <img src="cd164e71c6840ae8de72e9c5ca077f922321525d664d02e991936447a088572b.png" title=" Then I download the Receipt (completed)" width="1920"/>
+                <img src="cd164e71c6840ae8de72e9c5ca077f922321525d664d02e991936447a088572b.png" title=" Then Receipt contains $450.87" width="1920"/>
+                <img src="cd164e71c6840ae8de72e9c5ca077f922321525d664d02e991936447a088572b.png" title=" Receipt contains {0}" width="1920"/>
+                <img src="cd164e71c6840ae8de72e9c5ca077f922321525d664d02e991936447a088572b.png" title=" Then Receipt contains $450.87 (completed): <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.69</span>
+</div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="User is able to purchase a product from purchase info page" skipped="0" tests="2" time="167.73" timestamp="2021-02-08 10:02:57"><testcase name="Sign in landing page"><error message="Expected condition failed: waiting for Expecting text present: 'NEJM Knowledge+ saves you time' (tried for 60 second(s) with 50 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for Expecting text present: 'NEJM Knowledge+ saves you time' (tried for 60 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for Expecting text present: 'NEJM Knowledge+ saves you time' (tried for 60 second(s) with 50 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DLLA0561', ip: '172.16.253.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_77'
+Driver info: driver.version: unknown&#13;
+com.qait.automation.KPlus_Test_Automation.pages.BasePage.navigatetosigninpage(BasePage.java:60)&#13;
+com.qait.automation.KPlus_Test_Automation.cucumber.steps.serenity.KPlusSteps.navigatetosigninpage(KPlusSteps.java:352)&#13;
+com.qait.automation.KPlus_Test_Automation.cucumber.steps.LoginPageSteps.I_click_on_sign_in_Button_from_header(LoginPageSteps.java:33)&#13;
+✽.I click on Sign in Button from header(src/test/resources/features/Loginpage.feature:5)&#13;
+</system-err></testcase></testsuite>

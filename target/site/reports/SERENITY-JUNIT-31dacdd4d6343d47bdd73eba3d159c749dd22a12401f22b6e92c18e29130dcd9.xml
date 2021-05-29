@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Tax scenarios based on different provinces and countries" skipped="0" tests="1" time="184.13" timestamp="2020-06-22 02:12:56"><testcase name="TC_4801_Verify for Canada different tax amounts are calculated based on the All Provinces"/></testsuite>
