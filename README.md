@@ -2,7 +2,7 @@
 
 **Overview**: Completed Scenario 1 and Scenario 2 in BDD Serenity Framework. This Framework have lot of improvement scope. 
 
-Repository url - 
+Repository url - https://github.com/rashmi-qb/UKAutomationTestRashmi.git
 
 **Note**: This code is currently executable on Windows machine (win 10 latest chrome browser)
  
@@ -18,12 +18,18 @@ Repository url -
 * Right Click on TshirtpageRunner.java in order to execute Scenario 1
 * Click on 'Run As' and then 'JUnit test'
 * Checkout console for execution
+* Navigate to target\site\reports and click on .html file to view execution report
 
 **Steps To Execute Scenario 2 in Code**: 
 * Navigate to src/test/java > com.test.rashmi.cucumber
-* Right Click on UpdatedPersonalInfomationRunner.java in order to execute Scenario 1
+* Right Click on UpdatedPersonalInfomationRunner.java in order to execute Scenario 2
 * Click on 'Run As' and then 'JUnit test'
 * Checkout console for execution
+* Navigate to target\site\reports and click on .html file to view execution report
+
+**Successfully Execution Report screenshot**:
+* Scenario 1 - UKAutomationTestRashm\Scenario_1_ExecutionReportScreenShot.png
+* Scenario 2 - UKAutomationTestRashm\Scenario_2_ExecutionReportScreenShot.png
 
 **Basic info**:
 * Feature files mentioned under src/test/resources> features> Tshirt.feature --- (Feature file of scenario 1)
@@ -36,8 +42,4 @@ Repository url -
 **Scope of Improvement**:
 * History page verification can include T-Shirt - size and quantity
 * Update Personal Info : Timestamp can be combine with value in order keep it unique at every execution
- 
- 
- 
- 
- 
+

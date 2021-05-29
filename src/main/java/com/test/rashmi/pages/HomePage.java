@@ -1,9 +1,7 @@
 package com.test.rashmi.pages;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 
-import cucumber.api.java.en.Given;
 
 public class HomePage extends BasePage {
 	
@@ -27,16 +25,16 @@ public class HomePage extends BasePage {
 		return this.switchToPage(AccountPage.class);
 	}
 
-	public HomePage verifyUpdatedLastNameOnTopRightCorner(String expectedLastName) {
+	public HomePage verifyUpdatedFirstNameOnTopRightCorner(String expectedFirstName) {
 
 		waitForTextToAppear("Your personal information has been successfully updated.");
 		Assert.assertTrue(
-				waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[1].equalsIgnoreCase(expectedLastName),
-				"[Assert Failed]: Personal Info Last Name is not updated.Last name is: "+ waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[1] + " and expected : "
-						+ expectedLastName);
-		System.out.println("[Assert Passed: Personal Info Last Name is updated. Last name is: "
-				+ waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[1] + " and expected : "
-				+ expectedLastName);
+				waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[0].equalsIgnoreCase(expectedFirstName),
+				"[Assert Failed]: Personal Info First Name is not updated. First name is: "+ waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[1] + " and expected : "
+						+ expectedFirstName);
+		System.out.println("[Assert Passed: Personal Info First Name is updated. First name is: "
+				+ waitFor(USERNAME_TEXT).$(USERNAME_TEXT).getText().trim().split(" ")[0] + " and expected : "
+				+ expectedFirstName);
 		return this;
 	}
 	

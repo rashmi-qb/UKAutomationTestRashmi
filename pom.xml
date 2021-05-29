@@ -197,6 +197,36 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+				<groupId>net.serenity-bdd.maven.plugins</groupId>
+				<artifactId>serenity-maven-plugin</artifactId>
+				<version>${serenity.version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>net.serenity-bdd</groupId>
+						<artifactId>serenity-single-page-report</artifactId>
+						<version>${serenity.version}</version>
+					</dependency>
+					<dependency>
+						<groupId>net.serenity-bdd</groupId>
+						<artifactId>serenity-navigator-report</artifactId>
+						<version>${serenity.version}</version>
+					</dependency>
+				</dependencies>
+				<configuration>
+					<tags>${tags}</tags>
+					<reports>single-page-html,navigator</reports>
+				</configuration>
+				<executions>
+					<execution>
+						<id>serenity-reports</id>
+						<phase>post-integration-test</phase>
+						<goals>
+							<goal>aggregate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
 
 
 
@@ -205,8 +235,8 @@
 				<version>2.22.1</version>
 				<configuration>
 					<includes>
-						<include>**/kplus/**/*.java</include>
-						<include>**/kplus/*.java</include>
+						<include>**/Rashmi/**/*.java</include>
+						<include>**/Rashmi/*.java</include>
 					</includes>
 					<parallel>classes</parallel>
 					<threadCount>${parallel.tests}</threadCount>

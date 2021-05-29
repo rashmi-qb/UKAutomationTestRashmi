@@ -1,6 +1,5 @@
 package com.test.rashmi.pages;
 
-import cucumber.api.java.en.Given;
 
 public class CartSummaryPage extends BasePage {
 	

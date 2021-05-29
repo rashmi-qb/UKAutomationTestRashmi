@@ -1,9 +1,5 @@
 package com.test.rashmi.pages;
 
-import org.openqa.selenium.JavascriptExecutor;
-
-import cucumber.api.java.en.Given;
-
 public class AccountPage extends BasePage {
 
 	private static final String MYPERSONALINFO_LINK = "//a[@title=\"Information\"]";

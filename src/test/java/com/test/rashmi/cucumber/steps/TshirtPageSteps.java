@@ -82,12 +82,6 @@ public class TshirtPageSteps {
 		user.verifyPurchedOrderInHistory(expectedTshirtName);
 	}
 	
-	/*
-	 * @Then("I get Expected Tshirt Name from Tshirt Page") public void
-	 * I_Get_Expected_Tshit_Name_From_TshirtPage() { expectedTshirtName =
-	 * user.getexpectedTshirtName(); }
-	 */
-	
 }
 
 

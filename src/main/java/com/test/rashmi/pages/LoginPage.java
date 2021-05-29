@@ -1,7 +1,5 @@
 package com.test.rashmi.pages;
 
-import net.serenitybdd.screenplay.actions.Open;
-
 /**
  * 
  * @author Rashmi.Solanki Defining - Loign page locators and its action
@@ -10,21 +8,9 @@ import net.serenitybdd.screenplay.actions.Open;
 public class LoginPage extends BasePage {
 
 	private static final String SIGN_IN_BUTTON = "//a[@class='login']";
-	
 	private static final String USER_NAME_INPUT = "//input[@id='email']";
-
 	private static final String PASSWORD_INPUT = "//input[@id='passwd']";
-
 	private static final String LOGIN_BUTTON = "//button[@id='SubmitLogin']";
-
-	/**
-	 * Method used to login to the store
-	 * 
-	 * @param userName
-	 * @param password
-	 * @return 
-	 * @return
-	 */
 
 	public LoginPage clickOnSignInLink() {
 		open();
